@@ -7,8 +7,8 @@ This is a test site for testing palindromes with my ruby palindrome gem
 - Heroku
 
 ## Ruby gem
-(Here)[https://github.com/gitnyasha/chikari_palindrome]
+[Here](https://github.com/gitnyasha/chikari_palindrome)
 
 ## Live version
 
-(Demo)[https://desolate-spire-99911.herokuapp.com/]
+[Demo](https://desolate-spire-99911.herokuapp.com/)
