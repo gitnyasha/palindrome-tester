@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 gem "sinatra"
 gem "rerun"
+gem "chikari_palindrome", "0.1.0"
+
 group :test do
   gem "minitest", "5.11.3"
   gem "minitest-reporters", "1.2.0"
