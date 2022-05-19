@@ -8,7 +8,7 @@ GEM
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    mini_portile2 (2.3.0)
+    mini_portile2 (2.8.0)
     minitest (5.11.3)
     minitest-reporters (1.2.0)
       ansi
@@ -17,8 +17,10 @@ GEM
       ruby-progressbar
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
-    nokogiri (1.8.5)
-      mini_portile2 (~> 2.3.0)
+    nokogiri (1.13.5)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    racc (1.6.0)
     rack (2.2.2)
     rack-protection (2.0.8.1)
       rack
@@ -46,7 +48,7 @@ DEPENDENCIES
   chikari_palindrome (= 0.1.0)
   minitest (= 5.11.3)
   minitest-reporters (= 1.2.0)
-  nokogiri (= 1.8.5)
+  nokogiri (= 1.13.5)
   rack-test (= 1.0.0)
   rake (= 12.3.1)
   rerun
